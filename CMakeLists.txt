@@ -8,7 +8,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 set(CLEANING_SW_VERSION_MAJOR "1")
 set(CLEANING_SW_VERSION_MINOR "0")
 
-set(SOURCE_FILES main.cpp Environment.h)
+set(SOURCE_FILES main.cpp)
 add_executable(cleaning_sw ${SOURCE_FILES})
 
 find_package(Boost 1.55.0 REQUIRED COMPONENTS system filesystem)
